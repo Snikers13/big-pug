@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	span.foraddh
+		h1 All courses of Academy
+	div.forformadd
+		form(method='post')
+			fieldset.form-group
+				label(for='name') Name:
+				input.form-control(name='name', type='text', placeholder='Write name of the course', value=course.name)
+				small.text-muted Add your new course
+			button.btn.btn-primary(type='submit') Save the course
+			a.btn.btn-default(href='/api/courses') Cancel

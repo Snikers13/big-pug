@@ -1,0 +1,158 @@
+body {
+	padding-top: 60px;
+    font: 16px/1.42857 "Trebuchet MS",sans-serif;
+}
+
+#home {
+	background: url(pug2.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-content {
+	padding: 40px auto;
+}
+#comment_bubble {
+	font-size: 25px;
+    width: 260px;
+    height: 185px;
+    text-align: center;
+    top: 200px;
+    margin-left: 580px;
+    background: #1c1c1c;
+ 	color: #edf2f9;
+    position: relative;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+}
+#comment_bubble:before {
+    content: "";
+    width: 0;
+    height: 0;
+    right: 100%;
+    top: 68px;
+    position: absolute;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #1c1c1c;
+    border-bottom: 13px solid transparent;
+ }
+
+#about {
+	font-size: 20px;
+	color: #edf2f9;
+	background: #1c1c1c;
+	margin: 70px auto;
+	width: 700px;
+	border-radius: 30px;
+	height: 400px;
+	padding-left: 10px;
+}
+#about h2 {
+	text-align: center;
+	padding-top: 10px;
+}
+#about p {
+	margin-left: 10px;
+}
+
+form {
+ 	width: 300px;
+	color: #edf2f9;
+	margin: auto;
+}
+.inp {
+	width: 300px;
+	color: #1c1c1c;
+}
+.inp:hover {
+	background: #d3c9cb;
+}
+.area {
+	border-radius: 5px;
+	width: 300px;
+	height: 100px;
+	color: #1c1c1c;
+	resize: none;
+	outline: none;
+}
+#h1contact {
+	text-align: center;
+	padding-top: 10px;
+	color: #edf2f9;
+
+}
+#contact {
+	width: 300px;
+	margin: auto;
+	color: #edf2f9;
+	padding-top: 20px;
+}
+#form {
+	margin: auto;
+	width: 600px;
+	height: 400px;
+	background-color: #1c1c1c;
+	border-radius: 10px;
+}
+.link {
+	color: #edf2f9;
+	
+}
+.link:hover {
+	text-decoration: none;
+	color: #ff7c94;
+}
+#forlink {
+	position: relative;
+	bottom: 12px;
+	cursor: pointer;
+	text-align: center;
+}
+.btn1 {
+	background-color: #ff7c94;
+	color: #1c1c1c;
+	border: none;
+	border-radius: 5px;
+	height: 35px;
+	width: 85px;
+	font-size: 20px;
+}
+.btn1:active {
+	background-color: #ff7c94;
+}
+
+#courses {
+	background-color: #1c1c1c; 
+	color: #edf2f9;
+	border-radius: 10px;
+}
+tr:nth-child(even) {
+	color:  #edf2f9;
+}
+
+tr:nth-child(odd) {
+	color: #1c1c1c;
+}
+
+
+.w {
+	color: #edf2f9;
+}
+.forP {
+	position: relative;
+	text-align: center;
+}
+
+.foraddh {
+	color: #edf2f9;
+	margin: auto;
+	text-align: center;
+}
+.forformadd {
+	border-radius: 10px;
+	width: 400px;
+	height: 160px;
+	background-color: #1c1c1c;
+	position: relative;
+	margin: auto;
+}

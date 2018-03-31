@@ -1,0 +1,17 @@
+extends layout
+
+block content
+	body#ab
+		div#about
+			h2 About us
+			span
+				p At this moment i have team and we have 3 areas, from which we have a profit. 
+				p If you really big man, who knows everything about writing code, you may will become our participant.
+				p We make a deal with several big company, our activities there are hidden, here are some of them:
+				- var list = ["Oracle", "Apple", "Yahoo!"]
+
+				each item in list
+						li= item
+				p You might to contact with us and send something information in section 
+				span#forlink
+					a(href='/api/contact' class='link') Contact

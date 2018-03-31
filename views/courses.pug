@@ -1,0 +1,23 @@
+extends layout
+
+block content
+	div#courses
+		span.forP
+			h1 All courses of Academy
+		a.btn.btn-primary(href='/api/courses/add') Create new course
+		table.table.table-striped
+			thead
+				tr
+					th(class='w') Id Course
+					th(class='w') Course
+					th
+					th
+			tbody
+				each course in courses
+					tr
+						td= course.id
+						td= course.name
+						td(style='width: 50px;'): a(href='/api/courses/edit/' + course.id)
+							span.glyphicon.glyphicon-pencil
+						td(style='width: 50px;'): a(href='/api/courses/delete/' + course.id)
+							span.glyphicon.glyphicon-remove
