@@ -39,7 +39,7 @@ app.post('/api/contact/send', (req, res) => {
           requireTLS: true,
           auth: {
               user: 'for.anton.tretyak@gmail.com',
-              pass: 'T0938162653'
+              pass: '************'
           }
       });
 	let mailOptions = {
